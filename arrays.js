@@ -17,3 +17,7 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
     chocolateBars.push(candyString)
     return chocolateBars
   };
+
+  function accessElementInArray(array, index) {
+    return array[index]
+  };
