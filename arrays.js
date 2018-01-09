@@ -8,3 +8,7 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
     chocolateBars.unshift(candyString)
     return chocolateBars
   }
+
+  function addElementToEndOfArray (chocolateBars, candyString) {
+    return [...chocolateBars, candyString]
+  }
