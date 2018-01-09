@@ -26,3 +26,7 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
     chocolateBars.shift()
     return chocolateBars
   }
+
+  function removeElementFromBeginningOfArray(chocolateBars) {
+    return chocolateBars.slice(1)
+  }
